@@ -1,0 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+} 
+body {
+	background-color: #fff;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.2;
+	margin: 0px 20px;
+}
+a {
+	color: #e51a7f;
+	font-weight: 300;
+	text-decoration: none;
+}
+/*Link states*/
+a:link, a:visited {
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+hr {
+  color: #DDDDDC;
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 250px;
+}
+img {
+	zoom: 50%;
+	padding: 40px 0px 40px 10px;
+}
+nav a {
+	display: inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+p {
+	font-size: 18px;
+	line-height: 24px;
+    font-weight: 300;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding-top: 8px;
+  margin: 0;
+}
+#slogan{
+	font-style: italic;
+}
