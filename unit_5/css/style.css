@@ -10,7 +10,7 @@ body {
 	text-align: center;
 	font-size: 16px; /*1em = 16px*/
 	line-height: 1.3em;
-	margin: 0px 20px;
+	/*margin: 0px 20px;*/
 }
 
 section, main {
@@ -19,6 +19,7 @@ section, main {
 
 nav{
 	margin:auto;
+	padding-bottom: 1em;
 }
 
 h1,
@@ -35,6 +36,7 @@ h1{
 
 h2 {
 	font-size: 2em;
+	padding: 0.5em;
 }
 
 h3 {
@@ -46,6 +48,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 	line-height: 1.2;
     font-weight: 300;
+    top-padding: 1em;
 }
 
 ul {
@@ -74,27 +77,27 @@ hr {
   border: none;
   height: 2px;
   background-color: #DDDDDC;
-  margin: 20px auto;
+  margin: 10px auto;
   width: 250px;
 }
 
 .category h3  {
     text-align: left;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 0.7em;
 }
 
 div.project {
     display: inline-block;
-    padding: 1em;
+    padding: 0em 1em;
     position: relative;
     vertical-align: top;
     text-align: center;
 }
 
 .project img {
-    height: 15em;
-    width: 15em;
+    height: 20em;
+    width: 20em;
     background-color: #B4B4B4;
 }
 
@@ -109,8 +112,8 @@ div.project {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.5em;
 	text-transform: uppercase;
-	padding: 20px 30px;
-	margin: 10px;
+	padding: 10px 30px;
+	/*margin: 20px;*/
 }
 
 .freelance {
