@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+	padding: 0;
+	margin: 0;
+} 
+
+body {
+	background-color: #fff;
+	text-align: center;
+	font-size: 16px; /*1em = 16px*/
+	line-height: 1.3em;
+	margin: 0px 20px;
+}
+
+section, main {
+	padding: 20px auto;
+}
+
+nav{
+	margin:auto;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1.3em;
+}
+
+h1{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 1.2em;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.2;
+    font-weight: 300;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 8px;
+  margin: 0;
+}
+
+a {
+	color: #e51a7f;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+/*Link states*/
+a:link, a:visited {
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #DDDDDC;
+  margin: 20px auto;
+  width: 250px;
+}
+
+.category h3  {
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+div.project {
+    display: inline-block;
+    padding: 1em;
+    position: relative;
+    vertical-align: top;
+    text-align: center;
+}
+
+.project img {
+    height: 15em;
+    width: 15em;
+    background-color: #B4B4B4;
+}
+
+.ptitle {
+	display: block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+}
+
+.navlinks {
+	display: inline;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding: 20px 30px;
+	margin: 10px;
+}
+
+.freelance {
+	margin: 20px auto;
+}
+
+#header_image {
+	zoom: 50%;
+	margin: 40px auto;
+}
