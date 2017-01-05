@@ -6,37 +6,57 @@
   </head>
 
   <body>
-    <div id="header_image">
-     <img src="img/logo_name.jpg" alt="Alexis Lucio personal logo" title="AxL Logo">
-     <h1>Alexis Lucio</h1>
-    </div>
+    <div class="wrapper">
+    <header>
+     <img id="header_image" src="img/logo_name.jpg" alt="Alexis Lucio personal logo" title="AxL Logo">
+     <h2 id="header_name">Alexis Lucio</h2>
+    </header>
     <nav>
      <a class="navlinks" href="#">Home</a>
      <a class="navlinks" href="#">Body of Work</a>
-     <a class="navlinks" href="#">Resume</a>
+     <a class="navlinks" href="documents/resume_alexis_lucio.pdf" target="_blank">Resume</a>
      <a class="navlinks" href="#">About Me</a>
      <!-- <a class="navlinks" href="#">Recent work</a> -->
     </nav>
 
+    <hr>
+
     <main>
-      <hr>
-      <h2> Tackling problems no one wants to try but everyone wants solved.</h2>
-      <p>A SF-based Product Designer with life energy for UX, education, non-profit work, and dance (also mixology, but keeping in PG for the kids). I was inspired to take the class because my current boss, a front-end engineering manager, asked for me to code in HTML/CSS for Christmas. So Merry Christmas! </p>
+      <article>
+        <h2> Tackling problems no one wants to try but everyone wants solved.</h2>
+        <p>A SF-based Product Designer with life energy for UX, education, non-profit work, and dance (also mixology, but keeping in PG for the kids). I was inspired to take the class because my current boss, a front-end engineering manager, asked for me to code in HTML/CSS for Christmas. So Merry Christmas! </p>
+      </article>
 
       <section class="category" id="designer">
-        <h3>As a Designer > </h3>
+        <h3>As a Designer</h3>
         <div class="project">
           <img src="img/budget_app.jpg" alt="Budget App" title="Budget App"><br>
           <span class="ptitle">Budget App</span>
         </div>
         <div class="project">
-          <img src="img/sysdig_alert_editor.png" alt="Sysdig" title="Sysdig"><br>
+          <img src="img/sysdig_ex.png" alt="Sysdig Dashboard" title="Sysdig"><br>
           <span class="ptitle">Sysdig</span>
         </div>
         <div class="project">
           <img src="img/travel_app.jpg" alt="Travel App" title="Travel App"><br>
-          <span class="ptitle">ACP</span>
+          <span class="ptitle">Travel App</span>
         </div>
+      </section>
+
+      <section class="category" id="photog">
+        <h3>As a Photographer</h3>
+        <div class="project">
+          <img src="img/fashion.png" alt="Person Against Building" title="People"><br>
+          <span class="ptitle">Fashion</span>
+        </div>       
+        <div class="project">
+          <img src="img/ai_wei_wei.png" alt="Paper Dragon" title="Ai Wei Wei Exhibit"><br>
+          <span class="ptitle">Ai Wei Wei</span>
+        </div>
+        <div class="project">
+          <img src="img/selfshoot.png" alt="self-portrait" title="#"><br>
+          <span class="ptitle">Self-shoot</span>
+        </div>         
       </section>
 
       <section class="freelance">
@@ -58,5 +78,6 @@
      <a href="https://www.linkedin.com/in/alexislucio" target="_blank">Linkedin</a>, or on 
      <a href="https://twitter.com/alexisxlucio" target="_blank">Twitter</a>.</p>
     </footer>
+    </div>
   </body>
 </html>
